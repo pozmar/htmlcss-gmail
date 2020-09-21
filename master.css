@@ -1,0 +1,59 @@
+/*metto lo sfondo al body*/
+body{
+  background-image: url(img/sfondo.jpg);
+}
+/*metto margini al container*/
+.container{
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 50px;
+}
+/*metto proprietà all'immagine*/
+img {
+  vertical-align: middle;
+  width: 100px;
+}
+/*inserisco delle proprietà alla scritta Gmail*/
+#gmail{
+  color: white;
+  font-size: 25px;
+  padding-left: 20px;
+}
+/*do delle caratteristiche alla scritta prima delle row mail*/
+.top{
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+}
+/*metto delle caratteristiche particolari al numero*/
+#numero{
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 80%;
+  background-color: orange;
+}
+/*do uno sfondo uguale per tutte le row delle mail*/
+.mail{
+  background-color: #c9cad1;
+}
+/*do uno sfondo particolare a una sola delle row*/
+#second{
+  background-color: white;
+}
+/*inserisco i bordi alle row*/
+.read, #second{
+  border-style: solid;
+}
+/*do un colore particolare alla seconda parte del testo dentro le row*/
+.testo{
+  color: grey;
+}
+/*inserisco il colore del bordo alle linee*/
+hr{
+  border-color: white;
+}
+/*do delle caratteristiche al footer*/
+footer{
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,59 @@
+
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <<link rel="stylesheet" href="master.css">
+      <title></title>
+    </head>
+    <body>
+      <!--apro subito il div contenitore-->
+      <div class="container">
+        <!--inserisco una header per la parte superiore della pagina-->
+      <header>
+  <!--per ogni sezione di pagina inserisco un div apposito per mantenere un certo ordine-->
+        <div>
+        <img id="logo" src="img/gmail.jpg" alt="logo">
+        <span id="gmail">Gmail</span>
+          <hr>
+        </div>
+          <div>
+            <input type="text" id="cerca" placeholder="Search">
+            <button type="button">Vai</button>
+          </div>
+        </header>
+        <!--inserisco un div apposito per la scritta sopra la cartella delle mail-->
+    <div class="top">
+      <p>Hai <span id="numero">30</span> mail non lette<p>
+        <hr>
+    </div>
+    <!--creo un div contenitore per tutte le row delle mail e poi uno per ciascuna-->
+    <div class="mail">
+        <div class="read"><input  class="read" type="checkbox" name="" value="">
+          <span>&starf;</span>
+        <span><b>Oggetto della mail</b></span> <span class="testo">- testo della mail...</span>
+        </div>
+        <div id="second">
+          <input  class="unread" type="checkbox" name="" value="">
+          <span>&starf;</span>
+          <span><b>Oggetto della mail</b></span> <span class="testo">- testo della mail...</span>
+          </div>
+        <div class="read">
+
+            <input  class="read" type="checkbox" name="" value="">
+            <span>&starf;</span>
+            <span><b>Oggetto della mail</b></span><span class="testo">- testo della mail...</span>
+            </div>
+            <div class="read">
+              <input  class="read" type="checkbox" name="" value="">
+              <span>&starf;</span>
+              <span><b>Oggetto della mail</b></span> <span class="testo">- testo della mail...</span>
+              </div>
+    </div>
+    <hr>
+    <!--inserisco il footer-->
+  <footer>
+    <p><strong>Gmail<strong> <i>Powered by Martina<i><p>
+  </div>
+      </body>
+    </html>
